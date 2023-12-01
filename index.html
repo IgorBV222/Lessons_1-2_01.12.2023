@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        //Однострочный комментарий
+        /* Многострочный 
+        комментарий */
+        //console.log('Hello World!'); // вывод сообщения в консоль
+        //alert('Привет мир!'); //вывод сообщения на экран
+
+        //var hello = prompt(); //объевление переменной
+       //alert('Вы ввели ' + hello);
+        // const PI = 3.14; //создание констант
+
+        // var num1 = +prompt('Введите первое число:');
+        // var num2 = +prompt('Введите второе число:');
+
+        // alert(`${num1} + ${num2} = ${num1 + num2}`);
+
+        /*var n = +prompt('Введите число:');
+        if (n%2==0) 
+        {
+            console.log (`Число ${n} четное`);
+        }
+        else
+        {
+            console.log (`Число ${n} не четное`);
+        }*/
+
+        // var a = +prompt('Введите число:');
+        // while (a > 0)
+        // {
+        //     console.log (a--);
+        // }
+
+        // const correct = 6;
+        // do {
+        //     var answer = +prompt('Сколько будет 2 + 2 * 2?');
+        //     if (answer !== correct) 
+        //     {
+        //         alert ('Неправильно! Пробуй еще.');
+        //     }
+
+        // } while (answer !== correct);
+        // alert (`Молодец! Получается ${answer}`);
+
+
+        
+        // var dividers = 0;
+        // for (var k = +prompt('Введите число:'), i = k; i > 0; --i) 
+        // {
+        //     if (k % i === 0)
+        //     {
+        //         ++dividers;
+        //     }
+        // }
+        // alert(`Количество дилителей числа ${k}: ${dividers}`);
+
+
+            let arr1 = new Array(5);
+            console.log(arr1);
+            let arr2 = [10, 20, 30, 40, 'Hello world!', true];
+            console.log(arr2);
+            arr2[2] = 100;
+            arr2[10]=5;
+
+            for (let i of arr2) 
+            {
+                console.log(i);
+            }
+
+            for (let i in arr2) // переберает индексы
+            {
+                console.log(i);
+            }
+        
+       
+    </script>
+</body>
+</html>
